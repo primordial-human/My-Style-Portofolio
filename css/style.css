@@ -2,11 +2,27 @@ body {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                        rgba(0, 0, 0, 0.5)), url(/images/wallpapers/robored.jpg),linear-gradient(grey,red);
+    background-color: #030303;
     background-size: auto;
     color:#ff2e63;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
+.navbar a:hover{
+
+ 
+  
+   
+    opacity: 95%;
+   transition-duration: 0.2s;
+ 
+   
+   
+
+}
+
+
 
 /* for phone customizations here */
 @media(max-width:990px){
@@ -16,8 +32,9 @@ body {
     }
     
     body{
-       background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-       rgba(0, 0, 0, 0.5)), url(/images/wallpapers/roboredm.jpg),linear-gradient(grey,red);
+       /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+       rgba(0, 0, 0, 0.5)), url(/images/wallpapers/roboredm.jpg),linear-gradient(grey,red); */
+       background-color: #030303;
     }
     /* .carousel-item{
         width: 400%;
@@ -33,9 +50,11 @@ body {
 .navbar a{
  background-color: transparent;
  color: red;
+ opacity: 0.9;
  
- 
- 
+}
+.navbar a:hover{
+ opacity: 1;
 }
 #navbarNav {
  padding-left: 30%;
@@ -49,7 +68,9 @@ body {
 /* aboutme column 1 */
 .aboutme{
 
-    margin-top:10%;
+    margin-top:15%;
+    
+    
     
 } 
 
@@ -58,5 +79,42 @@ body {
 .carousel-item{
     width: 50%;
     height: 50%;
-    margin-left: 30%;
+    margin-left: 25%;
+    margin-top: 15%;
 }
+
+/* project heading here */
+ .projecth3{
+     margin-left: 40%;
+ }
+
+ /* profile here  */
+
+
+#profilepic{
+      height: 160px;
+      margin-left: 40%;
+      
+}
+
+#intro{
+    color:#ff2e63;
+    text-align: center;
+    font-style: italic;
+}
+
+.introsection{
+   
+    margin-top: 20%;
+    color: black;
+   
+}
+#intro:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: rgb(228, 19, 19);
+}
+ /* social links here */
+
+  
