@@ -1,0 +1,62 @@
+body {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(/images/wallpapers/robored.jpg),linear-gradient(grey,red);
+    background-size: auto;
+    color:#ff2e63;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* for phone customizations here */
+@media(max-width:990px){
+    .navbar-brand{
+        width: 330px;
+        
+    }
+    
+    body{
+       background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+       rgba(0, 0, 0, 0.5)), url(/images/wallpapers/roboredm.jpg),linear-gradient(grey,red);
+    }
+    /* .carousel-item{
+        width: 400%;
+        height: 200%;
+    } */
+
+}
+
+/* navbar*/
+
+
+
+.navbar a{
+ background-color: transparent;
+ color: red;
+ 
+ 
+ 
+}
+#navbarNav {
+ padding-left: 30%;
+}
+.navbar img{
+    height:10%;
+    width:10%;
+}
+
+
+/* aboutme column 1 */
+.aboutme{
+
+    margin-top:10%;
+    
+} 
+
+/*project images styling section */
+
+.carousel-item{
+    width: 50%;
+    height: 50%;
+    margin-left: 30%;
+}
