@@ -1,0 +1,186 @@
+body {
+    
+    background-color: #030303;
+    background-size: auto;
+    color:#ff2e63;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.navbar a:hover{
+
+ 
+  
+   
+    opacity: 95%;
+   transition-duration: 0.2s;
+ 
+   
+   
+
+}
+
+
+
+/* for phone customizations here */
+@media(max-width:990px){
+    .navbar-brand{
+        width: 330px;
+        
+    }
+    
+    body{
+       /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+       rgba(0, 0, 0, 0.5)), url(/images/wallpapers/roboredm.jpg),linear-gradient(grey,red); */
+       background-color: #030303;
+    }
+    /* .carousel-item{
+        width: 400%;
+        height: 200%;
+    } */
+    .ecil-img h4 {
+      
+         font-size: small;
+    }
+    #ecil-img{
+        float: left;
+    }
+
+    .links{
+        font-size:2rem;
+    }
+
+}
+
+/* navbar*/
+
+@media(max-width:420px){
+ .navbar-brand{
+     width: 200px;
+ }
+
+   #profile-pic{
+       margin-left:60px;
+   }
+.ecil-text{
+    margin-top: 30px;
+}
+.links i{
+    font-size: 3rem;
+}
+}
+
+
+
+
+.navbar a{
+ background-color: transparent;
+ color: red;
+ opacity: 0.9;
+ 
+}
+.navbar a:hover{
+ opacity: 1;
+}
+#navbarNav {
+ padding-left: 30%;
+}
+.navbar img{
+    height:10%;
+    width:10%;
+}
+
+
+/* aboutme column 1 */
+.aboutme{
+
+    margin-top:15%;
+    
+    
+    
+} 
+
+/*project images styling section */
+
+.carousel-item{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+/* project heading here */
+ .projecth3{
+     margin-left: 40%;
+ }
+
+ /* profile here  */
+
+
+#profilepic{
+      height: 160px;
+      margin-left: 40%;
+      
+}
+
+#intro{
+    color:#ff2e63;
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-style: italic;
+}
+
+.introsection{
+   
+    margin-top: 20%;
+    color: black;
+   
+}
+
+
+/* ecil */
+.ecil-text{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 0;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+}
+#ecil-img{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+    
+}
+ /* social links here */
+.links{
+    font-size: 5rem;
+    text-align: center;
+    
+    
+    
+}
+.social-links{
+    margin-top: 10%;
+}
+.fab,.fas{
+    color:#ff2e63
+}
+.fa-github:hover{
+    color:grey;
+}
+.fa-linkedin:hover{
+    color:#0a66c2;
+}
+.fa-medium:hover{
+    color:white
+}
+.fa-instagram-square:hover{
+   color:#FF8A47;
+}
+
+
+  
