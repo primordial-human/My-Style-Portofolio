@@ -1,11 +1,10 @@
 body {
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5)), url(/images/wallpapers/robored.jpg),linear-gradient(grey,red);
     background-color: #030303;
     background-size: auto;
     color:#ff2e63;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
     
 }
 
@@ -40,6 +39,17 @@ body {
         width: 400%;
         height: 200%;
     } */
+    .ecil-img h4 {
+      
+         font-size: small;
+    }
+    #ecil-img{
+        float: left;
+    }
+
+    .links{
+        font-size:2rem;
+    }
 
 }
 
@@ -81,6 +91,7 @@ body {
     height: 50%;
     margin-left: 25%;
     margin-top: 15%;
+    margin-bottom: 10%;
 }
 
 /* project heading here */
@@ -100,6 +111,7 @@ body {
 #intro{
     color:#ff2e63;
     text-align: center;
+    font-family: 'Niconne', cursive;
     font-style: italic;
 }
 
@@ -109,12 +121,49 @@ body {
     color: black;
    
 }
-#intro:hover{
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: rgb(228, 19, 19);
+
+
+/* ecil */
+.ecil-text{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 0;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+}
+#ecil-img{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+    
 }
  /* social links here */
+.links{
+    font-size: 5rem;
+    text-align: center;
+    
+    
+    
+}
+.social-links{
+    margin-top: 10%;
+}
+.fab,.fas{
+    color:#ff2e63
+}
+.fa-github:hover{
+    color:grey;
+}
+.fa-linkedin:hover{
+    color:#0a66c2;
+}
+.fa-medium:hover{
+    color:white
+}
+.fa-instagram-square:hover{
+   color:#FF8A47;
+}
+
 
   
